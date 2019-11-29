@@ -1,0 +1,10 @@
+.sidebar-container {
+    background:  #070D15;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 80%;
+    bottom: 10%;
+    font-size: 12px;
+}
