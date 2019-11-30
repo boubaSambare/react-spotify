@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import './homePage.css'
+import MainNav from '../navigation/MainNav';
+
 
 
 class HomePage extends Component {
     render() {
         return (
-            <div>
-                <h1 className="text-center">home page</h1>
+            <div className="main-content">
+                <MainNav/>
             </div>
         );
     }

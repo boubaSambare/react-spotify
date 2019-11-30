@@ -8,3 +8,23 @@
     bottom: 10%;
     font-size: 12px;
 }
+
+.border-on-hover:hover {
+    border-left: 5px solid green;
+}
+
+.btn-outline-secondary:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.sidebar-button {
+    width: 170px;
+    font-size: 1em;
+    color: white;
+}
+
+.margin-top {
+    margin-top: 220px ;
+}

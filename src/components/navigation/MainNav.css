@@ -1,0 +1,16 @@
+.nav-center {
+    font-size: 10px;
+    width: 80vh;
+    margin: 0 auto;
+}
+.bottom-border {
+    position: relative;
+}
+.bottom-border:hover::after {
+    content: '';
+    position: absolute;
+    right: 28px;
+    top: 25px;
+    width: 30%;
+    border: 1px solid green;
+}
