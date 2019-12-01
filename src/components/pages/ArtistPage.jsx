@@ -23,7 +23,7 @@ const ArtistPage = props => {
       {isLoading && (
         <Spinner color="danger" style={{ width: "3rem", height: "3rem" }} />
       )}
-      {!isLoading && (
+      {!isLoading && artist && (
         <Row
           style={{
             backgroundImage: `url(${artist.picture_xl})`,
@@ -47,7 +47,7 @@ const ArtistPage = props => {
         </Row>
       )}
       <h1 className="text-white pl-4"> ALBUM</h1>
-      <Row className="pl-4">{artist.name && <AlbumsList search={artist.name} />}</Row>
+      <Row className="pl-4">{ artist && artist.name && <AlbumsList search={artist.name} />}</Row>
     </div>
   );
 };
