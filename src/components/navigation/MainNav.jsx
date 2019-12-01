@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import './MainNav.css'
 import { Nav, NavItem, NavLink } from "reactstrap";
 
-class MainNav extends Component {
-  render() {
+const MainNav = () => {
     return (
       <div>
         <Nav className="nav-center">
@@ -27,7 +26,7 @@ class MainNav extends Component {
         </Nav>
       </div>
     );
-  }
+  
 }
 
 export default MainNav;

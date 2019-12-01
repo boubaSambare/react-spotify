@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from "../../logo.png";
 import "./sidebar.css";
 import {
@@ -17,8 +17,7 @@ import { Link } from "react-router-dom";
 import { FiSearch, FiHome } from "react-icons/fi";
 import { GiBookshelf } from "react-icons/gi";
 
-class SideBar extends Component {
-  render() {
+const SideBar = () => {
     return (
       <>
         <div className="sidebar-container">
@@ -102,7 +101,7 @@ class SideBar extends Component {
         </div>
       </>
     );
-  }
+  
 }
 
 export default SideBar;
